@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/EFdemo.props" />
+</Project>
