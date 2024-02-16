@@ -37,10 +37,13 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult AddUsers(UserModel user)
     {
-        using (var db = new DemoContext())
+        if (ModelState.IsValid)
         {
-            db.Add(user);
-            db.SaveChanges();
+            using (var db = new DemoContext())
+            {
+                db.Add(user);
+                db.SaveChanges();
+            }
         }
         return View();
     }

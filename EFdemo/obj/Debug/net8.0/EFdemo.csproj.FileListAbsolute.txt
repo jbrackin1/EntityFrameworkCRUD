@@ -129,3 +129,4 @@
 /Users/jerodbrackin/Projects/EFdemo/EFdemo/obj/Debug/net8.0/EFdemo.pdb
 /Users/jerodbrackin/Projects/EFdemo/EFdemo/obj/Debug/net8.0/EFdemo.genruntimeconfig.cache
 /Users/jerodbrackin/Projects/EFdemo/EFdemo/obj/Debug/net8.0/ref/EFdemo.dll
+/Users/jerodbrackin/Projects/EFdemo/EFdemo/obj/Debug/net8.0/EFdemo.sourcelink.json
