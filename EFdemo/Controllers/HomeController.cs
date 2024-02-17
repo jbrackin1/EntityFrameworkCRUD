@@ -31,6 +31,13 @@ public class HomeController : Controller
 
     public IActionResult AddUsers()
     {
+        List<UserModel> users = new List<UserModel>();
+        using (var db = new DemoContext())
+        {
+            users = db.Users.ToList();
+        }
+
+        ViewBag.users = users;
         return View();
     }
 

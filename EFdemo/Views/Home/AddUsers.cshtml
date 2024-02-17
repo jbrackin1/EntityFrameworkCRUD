@@ -31,3 +31,28 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<div class="container">
+    @if(ViewBag.users != null && ViewBag.users.Count >= 1)
+    {
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in ViewBag.users)
+                {
+                    <tr>
+                        <td>@user.Name</td>
+                        <td>@user.Age</td>
+                        <td>@user.UserName</td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+</div>
