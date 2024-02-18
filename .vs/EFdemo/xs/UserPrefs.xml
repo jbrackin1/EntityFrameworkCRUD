@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{D83FB34E-4063-45E4-BE08-DEDB44864160}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EFdemo/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EFdemo/Views/Home/AddUsers.cshtml">
     <Files>
-      <File FileName="EFdemo/Models/UserModel.cs" Line="7" Column="31" />
-      <File FileName="EFdemo/Migrations/20240213181905_InitialCreate.Designer.cs" />
-      <File FileName="EFdemo/Migrations/DemoContextModelSnapshot.cs" />
-      <File FileName="EFdemo/Views/Home/AddUsers.cshtml" Line="22" Column="61" />
-      <File FileName="EFdemo/Controllers/HomeController.cs" Line="41" Column="6" />
-      <File FileName="EFdemo/Views/Shared/_Layout.cshtml" />
+      <File FileName="EFdemo/Models/UserModel.cs" Line="16" Column="32" />
+      <File FileName="EFdemo/Migrations/DemoContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="EFdemo/Controllers/HomeController.cs" Line="38" Column="1" />
+      <File FileName="EFdemo/Views/Home/AddUsers.cshtml" Line="37" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="EFdemo" expanded="True">
             <Node name="EFdemo" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Migrations" expanded="True">
                 <Node name="20240213181905_InitialCreate.cs" expanded="True" />
               </Node>
@@ -28,16 +26,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.EFdemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.EFdemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

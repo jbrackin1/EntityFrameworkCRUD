@@ -29,6 +29,18 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
+    public IActionResult SearchUser(string searchTerm)
+    {
+        List<UserModel> users = new List<UserModel>();
+        using (var db = new DemoContext())
+        {
+            users = db.Users.Where(u => u.Name.ToLower().Contains(searchTerm.ToLower()) || u.Name == "Jerod").ToList();
+        }
+
+        TempData["users"] = users;
+        return View("AddUsers");
+    }
+
     public IActionResult AddUsers()
     {
         List<UserModel> users = new List<UserModel>();
@@ -37,9 +49,11 @@ public class HomeController : Controller
             users = db.Users.ToList();
         }
 
-        ViewBag.users = users;
+        TempData["users"] = users;
         return View();
     }
+
+
 
     [HttpPost]
     public IActionResult AddUsers(UserModel user)
