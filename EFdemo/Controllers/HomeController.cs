@@ -41,6 +41,17 @@ public class HomeController : Controller
         return View("AddUsers");
     }
 
+    public IActionResult UpdateUser()
+    {
+        using(var db = new DemoContext())
+        {
+            var user = db.Users.Where(u => u.Id == 1).FirstOrDefault();
+            user.Age = 18;
+            db.SaveChanges();
+        }
+        return View("AddUsers");
+    }
+
     public IActionResult AddUsers()
     {
         List<UserModel> users = new List<UserModel>();
@@ -52,8 +63,6 @@ public class HomeController : Controller
         TempData["users"] = users;
         return View();
     }
-
-
 
     [HttpPost]
     public IActionResult AddUsers(UserModel user)
