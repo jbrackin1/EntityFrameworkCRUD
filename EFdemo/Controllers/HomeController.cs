@@ -41,15 +41,33 @@ public class HomeController : Controller
         return View("AddUsers");
     }
 
-    public IActionResult UpdateUser()
+    [HttpPost]
+    public IActionResult UpdateUser(UserModel user)
     {
         using(var db = new DemoContext())
         {
-            var user = db.Users.Where(u => u.Id == 1).FirstOrDefault();
-            user.Age = 18;
+            var userTemp = db.Users.Where(u => u.Id == user.Id).FirstOrDefault();
+            TempData["userTemp"] = userTemp;
+        }
+
+        return View();
+    }
+
+    public IActionResult UpdateUserFinal(UserModel user)
+    {
+        using(var db = new DemoContext())
+        {
+            var UpdateUser = db.Users.Where(u => u.Id == user.Id).FirstOrDefault();
+
+            UpdateUser.Name = user.Name;
+            UpdateUser.Email = user.Email;
+            UpdateUser.UserName = user.UserName;
+            UpdateUser.Age = user.Age;
+
             db.SaveChanges();
         }
         return View("AddUsers");
+
     }
 
     public IActionResult AddUsers()

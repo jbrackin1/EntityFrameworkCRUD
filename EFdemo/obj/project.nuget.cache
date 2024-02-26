@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5ipSchlKKlTlCbPIJaxxWMFPWE5LBjhvr4G6SJ+ACIOr8rFgqspjsYbHa6VKWRiKI3/farb9TChAIx0o1+6nA==",
+  "dgSpecHash": "G9sDPqe0r2+r+7//pERCfvbsEw2sPFM4hxQtPnngbTE4hb0D5YgGwF/Wn7JAixz42Z53dFrViVpWZzLy7bJw0A==",
   "success": true,
-  "projectFilePath": "/Users/jerodbrackin/Projects/EFdemo/EFdemo/EFdemo.csproj",
+  "projectFilePath": "/Users/jerodbrackin/Desktop/CodingUnderPressure/EntityFrameworkCRUD/EFdemo/EFdemo.csproj",
   "expectedPackageFiles": [
     "/Users/jerodbrackin/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jerodbrackin/.nuget/packages/microsoft.aspnetcore.jsonpatch/8.0.2/microsoft.aspnetcore.jsonpatch.8.0.2.nupkg.sha512",

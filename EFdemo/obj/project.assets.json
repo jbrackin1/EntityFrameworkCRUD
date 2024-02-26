@@ -2801,11 +2801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jerodbrackin/Projects/EFdemo/EFdemo/EFdemo.csproj",
+      "projectUniqueName": "/Users/jerodbrackin/Desktop/CodingUnderPressure/EntityFrameworkCRUD/EFdemo/EFdemo.csproj",
       "projectName": "EFdemo",
-      "projectPath": "/Users/jerodbrackin/Projects/EFdemo/EFdemo/EFdemo.csproj",
+      "projectPath": "/Users/jerodbrackin/Desktop/CodingUnderPressure/EntityFrameworkCRUD/EFdemo/EFdemo.csproj",
       "packagesPath": "/Users/jerodbrackin/.nuget/packages/",
-      "outputPath": "/Users/jerodbrackin/Projects/EFdemo/EFdemo/obj/",
+      "outputPath": "/Users/jerodbrackin/Desktop/CodingUnderPressure/EntityFrameworkCRUD/EFdemo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jerodbrackin/.nuget/NuGet/NuGet.Config"
